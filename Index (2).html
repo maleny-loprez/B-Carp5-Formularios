@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario Estandar</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	
+</head>
+<body>
+	<div class="container" >
+		<br>
+		<form action="" class="">
+				<!-- class="form-group" Encierra los elementos y les da un espaciado -->
+			<div class="form-group">
+				<label for="nombre">Nombre:</label>
+				<input class="form-control" id="" type="text" placeholder="Nombre:">
+			</div>
+			
+			<!-- form-control: Da estilo al formulario -->
+
+			<div class="form-group has-error">
+				<label for="option" class="control-label">Elige la opción:</label>		
+				<select class="form-control" name="" id="option">
+					<option value="">Opción #1</option>
+					<option value="">Opción #2</option>
+					<option value="">Opción #3</option>
+					<option value="">Opción #4</option>
+					<option value="">Opción #5</option>
+				</select> 
+			</div>
+	
+			<div class="form-group">
+				<label for="mensaje">Mensaje:</label>
+				<textarea  class="form-control" id="mensaje" placeholder="Escribe tu mensaje: "></textarea>
+			</div>
+	
+			<div class="form-group">
+				<!-- input type="file" es para examnira y poder seleccionar un archivo  -->
+				<label for="archivo">Archivo:</label>
+				<input type="file" id="archivo">
+				<p class="help-block">Máximo 50MB</p>
+		
+			</div>
+			<button class="btn btn-primary">Enviar</button>
+			
+		</form>
+	</div>
+	
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
